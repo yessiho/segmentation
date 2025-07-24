@@ -4,6 +4,12 @@ import numpy as np
 import joblib
 import os
 
+st.title("🚀 App is running!")
+st.write("🔍 Initial log: App started")
+
+# Optional: debug print
+print("App has started execution.")
+
 # Load models
 kmeans = joblib.load("kmeans_model.pkl")
 scaler = joblib.load("scaler.pkl")
